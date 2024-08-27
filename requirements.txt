@@ -18,4 +18,4 @@ sentencepiece
 deepspeed>=0.8.2 
 
 openai>=1.2.0
-faiss
+faiss-cpu>=1.7.4
