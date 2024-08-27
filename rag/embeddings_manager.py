@@ -1,6 +1,6 @@
 import torch
 import pickle
-from wsindex.embeddings.embedding_index import EmbeddingIndex
+from rag.embedding_index import EmbeddingIndex
 import numpy as np
 
 class EmbeddingManager:

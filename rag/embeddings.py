@@ -2,7 +2,7 @@ from alfred import Client
 import os
 import torch
 from copy import deepcopy as dc
-from wsindex.embeddings.embeddings_manager import EmbeddingManager
+from rag.embeddings_manager import EmbeddingManager
 
 DEFAULT_TEMPLATE = "Based on the following {} documents, {}\n"
 
